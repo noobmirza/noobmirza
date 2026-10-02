@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="270" viewBox="0 0 800 270">
+  <style>
+    text{font-family:Consolas,Menlo,monospace;font-size:17px}
+    .p{fill:#a78bfa}.t{fill:#ede9fe}.d{fill:#8b7fb0}.k{fill:#c4b5fd}
+    .l{opacity:0;animation:show 14s infinite}
+    .l1{animation-delay:.3s}.l3{animation-delay:3s}.l5{animation-delay:6s}.l6{animation-delay:7.4s}
+    @keyframes show{0%{opacity:0}2%,92%{opacity:1}96%,100%{opacity:0}}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+  <rect x="1" y="1" width="798" height="268" rx="14" fill="#140a26" stroke="#4c1d95" stroke-width="2"/>
+  <path d="M1 15a14 14 0 0 1 14-14h770a14 14 0 0 1 14 14v26H1z" fill="#2e1065"/>
+  <circle cx="26" cy="21" r="6" fill="#a78bfa"/><circle cx="48" cy="21" r="6" fill="#7c3aed"/><circle cx="70" cy="21" r="6" fill="#5b21b6"/>
+  <text x="400" y="26" text-anchor="middle" class="d" style="font-size:13px">noobfly@dev: ~</text>
+  <g class="l l1"><text x="28" y="72"><tspan class="p">$ </tspan><tspan class="t">whoami</tspan></text><text x="48" y="94" class="k">noobfly</text></g>
+  <g class="l l3"><text x="28" y="126"><tspan class="p">$ </tspan><tspan class="t">cat stack.txt</tspan></text><text x="48" y="148" class="k">Python  Rust  Node.js  React  PHP  SQL</text></g>
+  <g class="l l5"><text x="28" y="180"><tspan class="p">$ </tspan><tspan class="t">ls projects/</tspan></text><text x="48" y="202" class="k">automation/  bots/  websites/  vr/</text></g>
+  <g class="l l6"><text x="28" y="240"><tspan class="p">$ </tspan><tspan class="t">status</tspan><tspan class="k"> building something new</tspan><tspan class="p cur"> _</tspan></text></g>
+</svg>

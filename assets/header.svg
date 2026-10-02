@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f0620"/><stop offset=".55" stop-color="#2e1065"/><stop offset="1" stop-color="#5b21b6"/></linearGradient>
+    <linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="#ddd6fe"><animate attributeName="stop-color" values="#ddd6fe;#a78bfa;#ddd6fe" dur="6s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#8b5cf6"><animate attributeName="stop-color" values="#8b5cf6;#ddd6fe;#8b5cf6" dur="6s" repeatCount="indefinite"/></stop></linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="c"><rect width="1000" height="240" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1000" height="240" fill="url(#bg)"/>
+    <g fill="#c4b5fd">
+      <circle cx="80" cy="40" r="1.6"><animate attributeName="opacity" values="1;.1;1" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="210" cy="190" r="1.2"><animate attributeName="opacity" values=".1;1;.1" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="340" cy="60" r="1.8"><animate attributeName="opacity" values="1;.2;1" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="560" cy="35" r="1.3"><animate attributeName="opacity" values=".2;1;.2" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="720" cy="170" r="1.7"><animate attributeName="opacity" values="1;.1;1" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle cx="900" cy="55" r="1.4"><animate attributeName="opacity" values=".1;1;.1" dur="3.6s" repeatCount="indefinite"/></circle>
+      <circle cx="950" cy="150" r="1.1"><animate attributeName="opacity" values="1;.2;1" dur="2.2s" repeatCount="indefinite"/></circle>
+    </g>
+    <circle cx="820" cy="120" r="150" fill="none" stroke="#8b5cf6" stroke-opacity=".25"><animate attributeName="r" values="110;170;110" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="120" r="90" fill="none" stroke="#a78bfa" stroke-opacity=".3"><animate attributeName="r" values="70;120;70" dur="8s" begin="-2s" repeatCount="indefinite"/></circle>
+    <path d="M-100 190 C50 150 300 230 500 190 S850 150 1100 195 V240 H-100Z" fill="#8b5cf6" fill-opacity=".25"><animateTransform attributeName="transform" type="translate" values="0 0;-60 6;0 0" dur="7s" repeatCount="indefinite"/></path>
+    <path d="M-100 205 C200 170 320 240 520 205 S860 175 1100 210 V240 H-100Z" fill="#6d28d9" fill-opacity=".45"><animateTransform attributeName="transform" type="translate" values="0 0;50 -5;0 0" dur="9s" repeatCount="indefinite"/></path>
+    <text x="60" y="118" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="78" font-weight="800" fill="url(#tx)" filter="url(#glow)" letter-spacing="2">NoobFly</text>
+    <text x="64" y="158" font-family="Consolas,Menlo,monospace" font-size="20" fill="#c4b5fd" letter-spacing="3">Automation &#183; Bots &#183; Web &#183; Apps &#183; VR</text>
+    <rect x="64" y="172" width="120" height="3" rx="1.5" fill="#a78bfa"><animate attributeName="width" values="20;220;20" dur="5s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>

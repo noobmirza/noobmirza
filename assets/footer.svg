@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="90" viewBox="0 0 800 90">
+  <defs><clipPath id="c"><rect width="800" height="90" rx="16"/></clipPath><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#2e1065"/><stop offset="1" stop-color="#5b21b6"/></linearGradient></defs>
+  <g clip-path="url(#c)">
+    <rect width="800" height="90" fill="#0f0620"/>
+    <path d="M-100 45 C120 10 240 80 400 45 S680 10 900 50 V90 H-100Z" fill="url(#g)" fill-opacity=".8"><animateTransform attributeName="transform" type="translate" values="0 0;-50 4;0 0" dur="7s" repeatCount="indefinite"/></path>
+    <path d="M-100 62 C160 35 280 90 440 62 S700 35 900 66 V90 H-100Z" fill="#8b5cf6" fill-opacity=".5"><animateTransform attributeName="transform" type="translate" values="0 0;40 -4;0 0" dur="9s" repeatCount="indefinite"/></path>
+  </g>
+</svg>

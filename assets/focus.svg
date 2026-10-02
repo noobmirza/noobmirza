@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="150" viewBox="0 0 800 150">
+  <defs><linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#5b21b6"/></linearGradient></defs>
+  <style>
+    text{font-family:Segoe UI,Helvetica,Arial,sans-serif}
+    .n{font-size:14px;font-weight:600;fill:#ede9fe;text-anchor:middle}
+    .b{animation:bob 4s ease-in-out infinite}
+    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+    .spin{animation:spin 8s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .blink{animation:bl 3s infinite}
+    @keyframes bl{0%,90%,100%{opacity:1}95%{opacity:.1}}
+    .tilt{transform-box:fill-box;transform-origin:center;animation:tl 4s ease-in-out infinite}
+    @keyframes tl{0%,100%{transform:rotate(0)}50%{transform:rotate(45deg)}}
+  </style>
+  <rect x="1" y="1" width="798" height="148" rx="16" fill="#140a26" stroke="#4c1d95" stroke-width="2"/>
+<g class="b" style="animation-delay:-0.0s"><rect x="18" y="22" width="140" height="106" rx="14" fill="#1f0f3a" stroke="url(#bd)" stroke-width="2"/><g transform="translate(88 64)"><rect x="-15" y="-12" width="30" height="24" rx="6" fill="none" stroke="#a78bfa" stroke-width="3"/><circle class="blink" cx="-6" cy="-1" r="3" fill="#c4b5fd"/><circle class="blink" cx="6" cy="-1" r="3" fill="#c4b5fd"/><path d="M0 -12V-18" stroke="#8b5cf6" stroke-width="3"/></g><text class="n" x="88" y="108">Discord Bots</text></g>
+<g class="b" style="animation-delay:-0.6s"><rect x="174" y="22" width="140" height="106" rx="14" fill="#1f0f3a" stroke="url(#bd)" stroke-width="2"/><g transform="translate(244 64)"><g class="spin"><circle r="14" fill="none" stroke="#a78bfa" stroke-width="3" stroke-dasharray="6 5"/><circle r="6" fill="#8b5cf6"/></g></g><text class="n" x="244" y="108">Automation</text></g>
+<g class="b" style="animation-delay:-1.2s"><rect x="330" y="22" width="140" height="106" rx="14" fill="#1f0f3a" stroke="url(#bd)" stroke-width="2"/><g transform="translate(400 64)"><rect x="-16" y="-13" width="32" height="26" rx="4" fill="none" stroke="#a78bfa" stroke-width="3"/><path d="M-16 -5H16" stroke="#a78bfa" stroke-width="3"/><circle class="blink" cx="-9" cy="-9" r="1.6" fill="#c4b5fd"/></g><text class="n" x="400" y="108">Websites</text></g>
+<g class="b" style="animation-delay:-1.8s"><rect x="486" y="22" width="140" height="106" rx="14" fill="#1f0f3a" stroke="url(#bd)" stroke-width="2"/><g transform="translate(556 64)"><rect x="-16" y="-13" width="32" height="20" rx="3" fill="none" stroke="#a78bfa" stroke-width="3"/><path d="M-8 14H8M0 7V14" stroke="#8b5cf6" stroke-width="3"/></g><text class="n" x="556" y="108">Desktop Apps</text></g>
+<g class="b" style="animation-delay:-2.4s"><rect x="642" y="22" width="140" height="106" rx="14" fill="#1f0f3a" stroke="url(#bd)" stroke-width="2"/><g transform="translate(712 64)"><rect x="-17" y="-10" width="34" height="20" rx="8" fill="none" stroke="#a78bfa" stroke-width="3"/><circle class="blink" cx="-6" cy="0" r="4" fill="#c4b5fd"/><circle class="blink" cx="6" cy="0" r="4" fill="#c4b5fd"/><path d="M-17 -2H-21M17 -2H21" stroke="#8b5cf6" stroke-width="3"/></g><text class="n" x="712" y="108">VR Systems</text></g>
+</svg>
